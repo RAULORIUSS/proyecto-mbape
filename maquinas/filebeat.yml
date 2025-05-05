@@ -1,0 +1,10 @@
+filebeat.config.modules:
+  path: ${path.config}/modules.d/*.yml
+  reload.enabled: false
+
+filebeat.inputs: []
+
+output.elasticsearch:
+  hosts: ["log:5000"]
+  username: "elastic"
+  password: "arf"
