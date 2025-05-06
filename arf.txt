@@ -1,1 +1,10 @@
-vi /etc/filebeat/filebeat.yml
+echo '{"remote_ip":"9.9.9.9", "agent":"Mozilla"}' >> /var/log/myapp/nginx.log
+
+
+output.elasticsearch:
+  hosts: ["log:5000"]
+  username: "elastic"
+  password: "arf"
+
+
+  

@@ -5,6 +5,7 @@ filebeat.config.modules:
 filebeat.inputs: []
 
 output.elasticsearch:
-  hosts: ["log:5000"]
-  username: "elastic"
-  password: "arf"
+  enabled: false
+
+output.logstash:
+  hosts: ["localhost:9600"] 
