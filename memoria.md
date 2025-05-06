@@ -28,7 +28,7 @@ proyecto-mbape/
 │   ├── kibana/                 # Configuración de Kibana
 │   └── filebeat/               # Configuración de Filebeat
 ├── pruebas/                    # Scripts y logs de pruebas de seguridad simuladas
-│   └── (DoS, DDoS, escaneos, EICAR, etc.)
+│   └── ( DDoS, escaneos, EICAR, etc.)
 ```
 
 
@@ -39,7 +39,7 @@ proyecto-mbape/
 ### Visualización
 
 -  Incluir capturas o enlaces a Dashboards de Kibana funcionales.
--  Añadir métricas e interpretación de resultados de pruebas.
+-  Añadir interpretación de resultados de pruebas.
 
 
 ## 🗓️ Planificación 
