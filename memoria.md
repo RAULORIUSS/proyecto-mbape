@@ -31,11 +31,6 @@ proyecto-mbape/
 │   └── (DoS, DDoS, escaneos, EICAR, etc.)
 ```
 
-### Documentación
-
--  Añadir un archivo `README.md` completo.
--  Incluir una breve descripción en la página principal del repositorio.
-
 
 ### Pruebas
 
