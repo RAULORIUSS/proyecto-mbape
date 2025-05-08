@@ -8,6 +8,8 @@ services:
     container_name: mi_linux
     tty: true
     stdin_open: true
+    ports:
+      - "2222:22"  # ← Esto abre el puerto SSH
     volumes:
       - ./logs:/var/log/myapp
     networks:

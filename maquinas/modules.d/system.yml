@@ -1,7 +1,0 @@
-- module: system
-  syslog:
-    enabled: true
-    var.paths: ["/var/log/myapp/syslog.log"]
-  auth:
-    enabled: true
-    var.paths: ["/var/log/myapp/auth.log"]

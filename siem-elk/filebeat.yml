@@ -1,16 +1,12 @@
-filebeat.config.modules:
-  path: ${path.config}/modules.d/*.yml
-  reload.enabled: false
-
 filebeat.inputs:
   - type: log
     enabled: true
     paths:
       - /var/log/myapp/syslog.log
-    tags: ["ubuntu_syslog"]
+      - /var/log/myapp/auth.log
 
 output.elasticsearch:
-  enabled: false
+  hosts: ["http://elasticsearch:9200"]
 
 output.logstash:
-  hosts: ["log:5044"]
+  enabled: false
