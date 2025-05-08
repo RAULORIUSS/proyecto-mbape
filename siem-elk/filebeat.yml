@@ -2,11 +2,12 @@ filebeat.inputs:
   - type: log
     enabled: true
     paths:
-      - /var/log/myapp/syslog.log
-      - /var/log/myapp/auth.log
+      - /var/log/myapp/*.log
+    tags: ["ubuntu_syslog"]
 
 output.elasticsearch:
-  hosts: ["http://elasticsearch:9200"]
+  enabled: false
 
 output.logstash:
-  enabled: false
+  enabled: true
+  hosts: ["logstash:5044"]
