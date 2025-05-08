@@ -1,3 +1,2 @@
-2025-05-08T22:57:20.230670+00:00 4d65a97aa8c6 sshd[23]: Server listening on 0.0.0.0 port 22.
-2025-05-08T22:57:20.230726+00:00 4d65a97aa8c6 sshd[23]: Server listening on :: port 22.
-2025-05-08T23:00:13.073287+00:00 4d65a97aa8c6 sshd[27]: Connection closed by 172.18.0.1 port 43206
+2025-05-08T23:31:03.238167+00:00 2ca61cbb8906 sshd[23]: Server listening on 0.0.0.0 port 22.
+2025-05-08T23:31:03.238244+00:00 2ca61cbb8906 sshd[23]: Server listening on :: port 22.
