@@ -1,0 +1,8 @@
+FROM ubuntu:latest
+
+RUN apt-get update && \
+    apt-get install -y rsyslog && \
+    mkdir -p /var/log/myapp && \
+    ln -sf /var/log/syslog /var/log/myapp/syslog.log
+
+CMD service rsyslog start && tail -F /var/log/syslog
