@@ -1,7 +1,5 @@
-2025-05-09T06:15:05.290333+00:00 a9dd97ddc1b0 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
-2025-05-09T06:15:05.290345+00:00 a9dd97ddc1b0 rsyslogd: activation of module imklog failed [v8.2312.0 try https://www.rsyslog.com/e/2145 ]
-2025-05-09T06:15:05.290346+00:00 a9dd97ddc1b0 rsyslogd: rsyslogd's groupid changed to 102
-2025-05-09T06:15:05.290347+00:00 a9dd97ddc1b0 rsyslogd: rsyslogd's userid changed to 101
-2025-05-09T06:15:05.290349+00:00 a9dd97ddc1b0 rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="11" x-info="https://www.rsyslog.com"] start
-2025-05-09T06:18:42.721525+00:00 a9dd97ddc1b0 root: 🔁 Nuevo log para probar
-2025-05-09T06:19:01.525674+00:00 a9dd97ddc1b0 root: 🔁 Nuevo log para probar
+2025-05-09T12:31:55.093356+00:00 b335aeec558c rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+2025-05-09T12:31:55.093369+00:00 b335aeec558c rsyslogd: activation of module imklog failed [v8.2312.0 try https://www.rsyslog.com/e/2145 ]
+2025-05-09T12:31:55.093370+00:00 b335aeec558c rsyslogd: rsyslogd's groupid changed to 102
+2025-05-09T12:31:55.093371+00:00 b335aeec558c rsyslogd: rsyslogd's userid changed to 101
+2025-05-09T12:31:55.093372+00:00 b335aeec558c rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="11" x-info="https://www.rsyslog.com"] start

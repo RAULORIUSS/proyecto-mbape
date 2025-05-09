@@ -130,3 +130,23 @@ RUN apt-get update && \
     ln -sf /var/log/syslog /var/log/myapp/syslog.log
 
     CMD rsyslogd && tail -F /var/log/syslog
+
+
+
+
+    input {
+  beats {
+    port => 5044
+  }
+}
+
+
+
+output {
+  stdout { codec => rubydebug }
+
+  elasticsearch {
+    hosts => ["http://elasticsearch:9200"]
+    index => "logstash-%{+YYYY.MM.dd}"
+  }
+}
