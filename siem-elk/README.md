@@ -18,7 +18,7 @@ $ docker compose down
 ## ataques 
 
 ### intento fallido de ssh
-sh usuario@localhost -p 2222
+ssh usuario@localhost -p 2222
 
 ### escaneo de puertos
 nmap -sV -Pn -p 2222 localhost

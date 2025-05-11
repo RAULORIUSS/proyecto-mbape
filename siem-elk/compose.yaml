@@ -9,7 +9,7 @@ services:
     tty: true
     stdin_open: true
     ports:
-      - "2222:22"  # ← Esto abre el puerto SSH
+      - "2222:22" 
     volumes:
       - ./logs:/var/log/myapp
     networks:
