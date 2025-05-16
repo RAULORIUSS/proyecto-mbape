@@ -24,3 +24,5 @@ ssh usuario@localhost -p 2222
 nmap -sV -Pn -p 2222 localhost
 
 ### ataque ddos simulado 
+
+nmap -p 2222 --script ssh-brute --script-args userdb=users.txt,passdb=passwords.txt,brute.threads=100,ssh.user=root 127.0.0.1
