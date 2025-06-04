@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2025-06-04T16:24:20.463913+00:00 085031c8a993 sshd[23]: Server listening on 0.0.0.0 port 22.
 2025-06-04T16:24:20.463978+00:00 085031c8a993 sshd[23]: Server listening on :: port 22.
 2025-06-04T16:25:23.346932+00:00 085031c8a993 sshd[27]: Invalid user usuario from 172.18.0.1 port 41268
@@ -382,3 +383,7 @@
 2025-06-04T16:28:49.846212+00:00 085031c8a993 sshd[190]: Connection closed by invalid user fhgjghk 172.18.0.1 port 33504 [preauth]
 2025-06-04T16:28:50.578761+00:00 085031c8a993 sshd[192]: Failed password for invalid user kuyy from 172.18.0.1 port 33516 ssh2
 2025-06-04T16:28:50.624773+00:00 085031c8a993 sshd[192]: Connection closed by invalid user kuyy 172.18.0.1 port 33516 [preauth]
+=======
+2025-05-12T14:48:41.299227+00:00 5cea5cbfee93 sshd[23]: Server listening on 0.0.0.0 port 22.
+2025-05-12T14:48:41.299247+00:00 5cea5cbfee93 sshd[23]: Server listening on :: port 22.
+>>>>>>> fbfff6852ee41f79b1ec1048325244357c4cd21a
